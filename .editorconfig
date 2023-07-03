@@ -1,0 +1,6 @@
+root = true
+
+[*]
+charset = utf8
+ident_style = space
+ident_size = 2
