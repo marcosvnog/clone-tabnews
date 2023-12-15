@@ -4,13 +4,22 @@
   "description": "Repositório focado em replicar o https://www.tabnews.com.br/ do Felipe Deschamps seguindo o curso https://curso.dev/",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check",
+    "lint:fix": "prettier --write",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "next": "^13.1.6",
+    "pg": "^8.11.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "jest": "^29.6.2"
   }
 }
